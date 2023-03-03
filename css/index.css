@@ -250,7 +250,7 @@ padding-left: 5px;
 .list .one.two p{
 display: flex;
 flex-direction: column;
-width: 130%;
+width: 105%;
 }
 .list .one.three p{
     display: flex;
