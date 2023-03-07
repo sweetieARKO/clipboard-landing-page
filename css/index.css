@@ -65,6 +65,40 @@ body{
     padding-bottom: 20px;
 
 }
+.paragraph{
+    
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.paragraph h1{
+ 
+    color: #4C545C;
+    font-size: 36px;
+    letter-spacing: -0.75px;
+    font-weight: 600;
+    width: 730px;
+    padding-left: 365px; 
+    padding-right: 365px;
+   
+}
+.paragraph p{
+    
+    color:#9EABB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    letter-spacing: 0.15px;
+    line-height: 30px;
+    vertical-align: top;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
 button{
 border: none;
 
@@ -215,6 +249,9 @@ padding-left: 200px;
    padding-left: 200px;
    padding-bottom: 40px;
 }
+.first.fifth{
+    padding-left: 94px;
+}
 .list .one{
     
     display: flex;
@@ -253,7 +290,7 @@ padding-left: 5px;
 .list .one.two p{
 display: flex;
 flex-direction: column;
-width: 105%;
+width: 130%;
 }
 .list .one.three p{
     display: flex;
@@ -262,14 +299,27 @@ width: 105%;
     padding-left: 79px;
 }
 .part{
-    width: 1110px;
-    
+    width: 1510px;
+    display: flex;
     padding-top: 130px;
+    justify-content: center;
+    align-items: center;
 }
-.part img{
-    padding-right: 70px;
+.part .one img{
+margin-left: -300px;
 }
-
+.part .two img{
+margin-left: -20px;
+}
+.part .three img{
+padding-left: 108px;
+}
+.part .four img{
+    padding-left: 100px;
+}
+.part .five img{
+    padding-left: 90px;
+}
 
 .container-flex{
     background: rgba(158, 171, 178, 0.1);
@@ -361,11 +411,11 @@ width: 425px;
 overflow: hidden;
 }
 .head img{
-    width: 75px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    padding-left: 328px;
+    width: 150%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto; 
+   padding-left: 350px;
 }
 .symbol{
     display: flex;
@@ -405,7 +455,7 @@ overflow: hidden;
 .list{
     display: flex;
     flex-direction: column;
-    padding-left: 72px;
+    padding-left: 102px;
 }
 .part{
     display: flex;
@@ -416,8 +466,25 @@ overflow: hidden;
 }
 .fourth h3{
     width: 70%;
-    padding-left: 64px;
     font-size: 28px;
+}
+.item.one{
+text-align: left;
+margin-left: -59px;
+padding-bottom: 30px;
+}
+.item.two{
+margin-left: -47px;
+padding-bottom: 30px;
+}
+.item.two p{
+    width: 25%;
+}
+.item.three{
+    margin-left: -47px;
+}
+.item.three h2{
+    padding-left: 48px;
 }
 .fourth p{
     width: 73%;
@@ -432,7 +499,6 @@ overflow: hidden;
 .image-computer img{
     width: 312px;
     margin-left: 0;
-    padding-left: 51px;
     padding-right: 0;
     padding-bottom: 0;
 }
@@ -455,11 +521,11 @@ overflow: hidden;
     padding-left: 82px;
 }
 .first.two{
-    padding-left: 99px;
+    padding-left: 60px;
 }
 .first.two h1{
     padding-left: 20px;
-    width: 100%;
+    width: 80%;
     font-size: 28px;
 }
 .first.two p{
@@ -480,7 +546,7 @@ overflow: hidden;
 }
 .first h4{
     width: 90%;
-    padding-left: 54px;
+    padding-left: 32px;
     text-align: center;
     font-size: 28px;
 }
@@ -510,10 +576,26 @@ overflow: hidden;
 
 }
 .first.fifth p{
-    padding-left: 96px;
+    padding-left: 60px;
 }
 .icons{
- padding-left: 130px;   
+ padding-left: 150px;   
+}
+.paragraph{
+
+}
+.paragraph h1{
+    padding-left: 480px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    padding-bottom: 0;
+    
+    font-size: 28px;
+}
+.paragraph p{
+    width: 383px;
+    padding-left: 51px;
 }
 .second.two p{
     width: 73%;
@@ -526,6 +608,19 @@ overflow: hidden;
 .part{
     padding-left: 48px;
 }
+.part .one img{
+    padding-left: 0;
+    margin-left: 0;
+}
+.part .three img{
+    padding-left: 0;
+}
+.part .four img{
+    padding-left: 0;
+}
+.part .five img{
+    padding-left: 0;
+}
 footer .container-flex{
     display: flex;
     flex-direction: column;
@@ -534,13 +629,14 @@ footer .container-flex{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 125px;
 }
 
 .links li  a{
-    padding-left: 160px;
+    padding-left: 270px;
 }
 footer .social{
-    padding-left: 120px;
+    padding-left: 205px;
 }
 footer .social img{
     padding-left: 60px;
@@ -560,7 +656,7 @@ p{
 font-size: 16px;
 }
 .container{
-
+overflow-x: hidden;
 }
 .head{
 background: url(/images/bg-header-mobile.png);
@@ -614,6 +710,9 @@ padding-left: 72px;
 .part{
 display: flex;
 flex-direction: column;
+}
+.list .one{
+    padding-right: 194px;
 }
 .part{
 width: 139px;
@@ -728,11 +827,26 @@ padding-left: 350px;
     width: 29%;
 }
 .icons{
-padding-left: 319px;   
+padding-left: 268px;   
 }
 .part img{
 width: 139px;
 padding-bottom: 59px;
+}
+.part .one img{
+    margin-left: 0;
+}
+.part .two img{
+    padding-left: 35px;
+}
+.part .three img{
+    padding-left: 15px;
+}
+.part .four img{
+    padding-left: 0;
+}
+.part .five img{
+    padding-left: 0;
 }
 .part{
 padding-left: 48px;
@@ -740,6 +854,7 @@ padding-left: 48px;
 footer .container-flex{
 display: flex;
 flex-direction: column;
+margin-left: -432px;
 }
 .container-flex .one{
 display: flex;
@@ -750,7 +865,7 @@ justify-content: center;
 padding-left: 150px;
 }
 footer .social{
-    padding-left: 120;
+    padding-left: 120px;
 }
 footer .social img{
 padding-left: 60px;
@@ -758,5 +873,15 @@ padding-left: 60px;
 .second.two h1{
     width: 32%;
     padding-left: 280px;
+}
+.paragraph h1{
+    width: 413px;
+    padding-left: 140px;
+}
+.paragraph p{
+    margin-left: -200px;
+}
+.buttons.last{
+    padding-left: 148px;
 }
 }
